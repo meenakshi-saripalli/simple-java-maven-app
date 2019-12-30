@@ -14,6 +14,13 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    
+  <properties>
+      <sonar.projectKey>meenakshi-saripalli_simple-java-maven-app</sonar.projectKey>
+      <sonar.organization>meenakshi-saripalli</sonar.organization>
+      <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+      <sonar.login>92900c4e90abdc01c8da219104df11c6cf58ac56</sonar.login>
+  </properties>
   </dependencies>
   <build>
     <plugins>
@@ -35,3 +42,4 @@
     </plugins>
   </build>
 </project>
+
